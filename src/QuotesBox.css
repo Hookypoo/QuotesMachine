@@ -1,0 +1,83 @@
+#text {    
+    text-align: center;    
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    height: auto;
+    clear: both;
+    font-weight: 500;
+    font-size: 1.75em;
+}
+#quote-box {
+    display: table;
+    position: relative;
+    min-height: 300px;
+    width: 500px;
+    border-radius: 3px;
+    background-color: white;
+    margin: 100px auto 0px auto;
+}
+
+.left-quote {
+    font-size: 23px;
+    padding-right: 10px;
+}
+
+#quote-text {
+    
+     
+}
+
+
+#author {        
+    right: 20px;
+    bottom: 85px;
+    margin-top: 0px;
+}
+
+#author h5 {
+    margin-right: 25px;
+    text-align: right;
+}
+
+#quotes-icons {    
+    bottom: 0px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    display: flex;    
+}
+
+#new-quote {
+    height: 32px;
+    margin-top: 13px; 
+    margin-left: 240px;
+    background-color: rgb(22, 160, 133);
+    color: white;   
+}
+
+#new-quote:hover {
+    background-color: rgb(59, 182, 157);
+}
+
+#tweet-quote {
+   color: rgb(22, 160, 133);
+   font-size: 35px;
+   margin: 5px;
+}
+#tweet-quote:hover {
+    color: rgb(59, 182, 157);
+}
+
+#tumblr-home {
+    color: rgb(22, 160, 133);
+    font-size: 35px;
+    margin: 5px;
+}
+#tumblr-home:hover {
+    color: rgb(59, 182, 157);
+}
+
+#quotes-signature {
+    color: black;
+    text-align: center;    
+}
